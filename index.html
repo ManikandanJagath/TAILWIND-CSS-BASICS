@@ -3,14 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TailwindCSS Basics</title>
+    <title>Chats | WhatsApp</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="./Asset/CSS/output.css">
 </head>
 <body>
 
-    <h1 class="text-red-500">whatsapp</h1>
-    <h5 class="text-blue-300">hi</h5>
+    <!-- whatsapp ui screen  -->
+<section class="bg-emerald-100 p-5">
+    <h1 class="font-bold text-xl text-center mb-5">Whatsapp UI Screens</h1>
+
+<div class="bg-emerald-800">
+    <div class="flex justify-between px-3 py-3 text-white items-center">
+        <h1 class="font-medium text-l">WhatsApp</h1>
+        <div class="flex space-x-3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M9.5 16q-2.725 0-4.612-1.888T3 9.5q0-2.725 1.888-4.612T9.5 3q2.725 0 4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l5.6 5.6q.275.275.275.7t-.275.7q-.275.275-.7.275t-.7-.275l-5.6-5.6q-.75.6-1.725.95T9.5 16m0-2q1.875 0 3.188-1.312T14 9.5q0-1.875-1.312-3.187T9.5 5Q7.625 5 6.313 6.313T5 9.5q0 1.875 1.313 3.188T9.5 14"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="32" viewBox="0 0 24 24"><path fill="currentColor" d="M12 10c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m0-6c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2m0 12c-1.1 0-2 .9-2 2s.9 2 2 2s2-.9 2-2s-.9-2-2-2"/></svg>
+        </div>
+    </div>
+    <div class="px-3 flex justify-between py-3 items-center text-white">
+        <div class="">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M12 17.5q1.875 0 3.188-1.312T16.5 13q0-1.875-1.312-3.187T12 8.5q-1.875 0-3.187 1.313T7.5 13q0 1.875 1.313 3.188T12 17.5m0-2q-1.05 0-1.775-.725T9.5 13q0-1.05.725-1.775T12 10.5q1.05 0 1.775.725T14.5 13q0 1.05-.725 1.775T12 15.5M4 21q-.825 0-1.412-.587T2 19V7q0-.825.588-1.412T4 5h3.15L8.4 3.65q.275-.3.663-.475T9.875 3h4.25q.425 0 .813.175t.662.475L16.85 5H20q.825 0 1.413.588T22 7v12q0 .825-.587 1.413T20 21z"/></svg>
+        </div>
+            <ul class="flex flex-1 justify-between space-x-3 ml-3 mr-3 text-white">
+            
+                <li>
+                    <div  class="uppercase font-medium flex items-center px-5 relative">
+                        <span class="text-sm">Chats</span>
+                        <span class="bg-white text-emerald-700 p-0.5 rounded-full w-6 h-6 text-xs flex items-center justify-center text-center ml-2">10</span>
+                        <div class="w-full h-1 right-1 bg-white absolute mt-11" ></div>
+                    </div>
+                    
+                </li>
+
+                <li>
+                    <div  class="uppercase font-medium flex items-center">
+                        <span class="text-sm">Status</span>
+                        
+                    </div>
+                </li>
+                
+                <li>
+                    <div  class="uppercase font-medium flex items-center">
+                        <span class="text-sm">Call</span>
+                    </div>
+                </li>
+            
+            </ul>
+    </div>
+</div>
+
+<div class="relative">
+    <div class="bg-white pt-4  px-3 py-3 flex justify-between items-center hover:bg-gray-100">
+        <div class="flex items-center">
+            <div class="mr-4">
+                <img class="border-4 border-white outline-2 outline outline-emerald-700 border-solid h-52px rounded-full" src="https://ui-avatars.com/api/?name=Mani+Kandan&background=random" alt="">
+            </div>
+            <div class="items-center">
+                <h5 class="text-lg font-bold text-gray-800 pb-1">Programmer</h5>
+                <p class="text-sm font-medium text-gray-500">Hi, Programmer, how are you?</p>
+            </div>
+        </div>
+            
+        <div class="items-center justify-center flex flex-col">
+            <p class="text-green-500 font-semibold text-base">12:15</p>
+            <h6 class="text-white bg-green-500 rounded-full text-center justify-center items-center flex text-sm font-medium w-7 h-7">2</h6>
+        </div>
+    </div>
     
+    <div class="bg-white pt-4  px-3 py-3 flex justify-between items-center  hover:bg-gray-100">
+        <div class="flex items-center">
+            <div class="mr-4">
+                <img class="h-52px rounded-full" src="https://ui-avatars.com/api/?name=Mani+Kandan&background=random" alt="">
+            </div>
+            <div class="items-center">
+                <h5 class="text-lg font-bold text-gray-800 pb-1">Programmer</h5>
+                <p class="text-sm font-medium text-gray-500">Hi, Programmer, how are you?</p>
+            </div>
+        </div>
+            
+        <div class="items-center justify-center flex flex-col">
+            <p class="text-green-500 font-semibold text-base">12:15</p>
+            <h6 class="text-white bg-green-500 rounded-full text-center justify-center items-center flex text-sm font-medium w-7 h-7">2</h6>
+        </div>
+    </div>
+    
+    <div class="bg-white pt-4  px-3 py-3 flex justify-between items-center  hover:bg-gray-100">
+        <div class="flex items-center">
+            <div class="mr-4">
+                <img class="h-52px rounded-full" src="https://ui-avatars.com/api/?name=Mani+Kandan&background=random" alt="">
+            </div>
+            <div class="items-center">
+                <h5 class="text-lg font-bold text-gray-800 pb-1">Programmer</h5>
+                <p class="text-sm font-medium text-gray-500">Hi, Programmer, how are you?</p>
+            </div>
+        </div>
+            
+        <div class="items-center justify-center flex flex-col">
+            <p class="text-green-500 font-semibold text-base">12:15</p>
+            <h6 class="text-white bg-green-500 rounded-full text-center justify-center items-center flex text-sm font-medium w-7 h-7">2</h6>
+        </div>
+    </div>
+    
+    <div class="bg-white pt-4  px-3 py-3 flex justify-between items-center  hover:bg-gray-100">
+        <div class="flex items-center">
+            <div class="mr-4">
+                <img class="h-52px rounded-full" src="https://ui-avatars.com/api/?name=Mani+Kandan&background=random" alt="">
+            </div>
+            <div class="items-center">
+                <h5 class="text-lg font-bold text-gray-800 pb-1">Programmer</h5>
+                <p class="text-sm font-medium text-gray-500">Hi, Programmer, how are you?</p>
+            </div>
+        </div>
+            
+        <div class="items-center justify-center flex flex-col">
+            <p class="text-green-500 font-semibold text-base">12:15</p>
+            <h6 class="text-white bg-green-500 rounded-full text-center justify-center items-center flex text-sm font-medium w-7 h-7">2</h6>
+        </div>
+    </div>
+    
+    <div class="bg-white pt-4  px-3 py-3 flex justify-between items-center  hover:bg-gray-100">
+        <div class="flex items-center">
+            <div class="mr-4">
+                <img class="h-52px rounded-full" src="https://ui-avatars.com/api/?name=Mani+Kandan&background=random" alt="">
+            </div>
+            <div class="items-center">
+                <h5 class="text-lg font-bold text-gray-800 pb-1">Programmer</h5>
+                <p class="text-sm font-medium text-gray-500">Hi, Programmer, how are you?</p>
+            </div>
+        </div>
+            
+        <div class="flex items-center justify-center flex-col ">
+            <p class="text-green-500 font-semibold text-base">12:15</p>
+            <h6 class="text-white bg-green-500 rounded-full text-center justify-center items-center flex text-sm font-medium w-7 h-7">2</h6>
+        </div>
+    </div>
+    
+    <div class="bg-white pt-4  px-3 py-3 flex justify-between items-center  hover:bg-gray-100">
+        <div class="flex items-center">
+            <div class="mr-4">
+                <img class="h-52px rounded-full" src="https://ui-avatars.com/api/?name=Mani+Kandan&background=random" alt="">
+            </div>
+            <div class="items-center">
+                <h5 class="text-lg font-bold text-gray-800 pb-1">Programmer</h5>
+                <p class="text-sm font-medium text-gray-500">Hi, Programmer, how are you?</p>
+            </div>
+        </div>
+            
+        <div class="items-center justify-center flex flex-col ">
+            <p class="text-green-500 font-semibold text-base">12:15</p>
+            <h6 class="text-white bg-green-500 rounded-full text-center justify-center items-center flex text-sm font-medium w-7 h-7">2</h6>
+        </div>
+    </div>
+    
+    <div class="bg-white pt-4  px-3 py-3 flex justify-between items-center  hover:bg-gray-100">
+        <div class="flex items-center">
+            <div class="mr-4">
+                <img class="h-52px rounded-full" src="https://ui-avatars.com/api/?name=John+Doe&background=random" alt="">
+            </div>
+            <div class="items-center">
+                <h5 class="text-lg font-bold text-gray-800 pb-1">Programmer</h5>
+                <p class="text-sm font-medium text-gray-500">Hi, Programmer, how are you?</p>
+            </div>
+        </div>
+            
+        <div class="items-center justify-center flex flex-col">
+            <p class="text-green-500 font-semibold text-base">12:15</p>
+            <h6 class="text-white bg-green-500 rounded-full text-center justify-center items-center flex text-sm font-medium w-7 h-7">2</h6>
+        </div>
+    </div>
+    <div class="absolute bottom-5 right-5">
+        <svg class="text-white bg-emerald-800 w-12 h-12 p-3 rounded-full shadow-xl shadow-gray-400" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="m6.077 17l-1.704 1.704q-.379.379-.876.17Q3 18.668 3 18.134V4.615q0-.69.463-1.152Q3.925 3 4.615 3h14.77q.69 0 1.152.463q.463.462.463 1.152v10.77q0 .69-.462 1.153q-.463.462-1.153.462zM7 13.5h6q.213 0 .356-.144q.144-.144.144-.357t-.144-.356Q13.213 12.5 13 12.5H7q-.213 0-.356.144q-.144.144-.144.357t.144.356q.144.143.356.143m0-3h10q.213 0 .356-.144q.144-.144.144-.357t-.144-.356Q17.213 9.5 17 9.5H7q-.213 0-.356.144Q6.5 9.788 6.5 10t.144.356q.144.143.356.143m0-3h10q.213 0 .356-.144q.144-.144.144-.357t-.144-.356Q17.213 6.5 17 6.5H7q-.213 0-.356.144q-.144.144-.144.357t.144.356Q6.788 7.5 7 7.5"/></svg>
+    </div>
+</div>
+
+</section>
+
+
 </body>
 </html>
